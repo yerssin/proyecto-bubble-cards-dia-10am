@@ -1,0 +1,33 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+    background-color:#c2c2c2;
+
+}
+.card {
+    display: inline-block;
+    width: 100px;  
+    background: white;
+    border-radius: 15px;
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+
+} 
+.top {
+    font-size: 20px;
+    text-align: left;
+}
+.center {
+    font-size: 40px;
+}
+.bottom {
+    font-size: 20px;
+    text-align: right;
+}
+.click {
+    padding: 10px;
+    
+}

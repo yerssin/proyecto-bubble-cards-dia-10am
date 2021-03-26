@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello Rigo with Vanilla.js</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="shortcut icon" href="./4geeks.ico" />
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+<form id="formulario1" class="row g-3 justify-content-center py-3 mb-5">
+  <div class="col-auto">
+    <input type="text" class="form-control" id="textCarta" placeholder="Cantidad de cartas">
+    <div class="invalid-feedback" id="error">
+    </div>
+  </div>
+  <div class="col-auto">
+  <button type="submit" class="btn btn-primary">Presiona</button>
+</div>
+</form>
+  <div class="container-fluid text-center" id="espacioCartas">
+  </div>
+  <div class="container-fluid text-center" id="cartasOrdenadasBubbleSort"></div>
+  <div class="row justify-content-center">
+    <div class="mt-5">
+      <button onClick="ordernarCartas()">Ordenar cartas
+      </button>
+    </div>
+
+  </div>
+  
+  
+  <script src="app.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
